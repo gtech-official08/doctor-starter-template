@@ -1,1 +1,196 @@
 This is the Dummy data or Constant data
+
+
+==============- Hero BG Img -==============
+
+img1:- https://cdn.pixabay.com/photo/2017/03/14/03/20/woman-2141808_1280.jpg
+
+img2:- https://cdn.pixabay.com/photo/2016/01/19/15/05/computer-1149148_1280.jpg
+
+img3:- https://cdn.pixabay.com/photo/2016/11/08/05/29/surgery-1807541_1280.jpg
+
+
+==============- About Img -==============
+
+Link:- https://cdn.pixabay.com/photo/2022/06/14/12/48/medicine-7261808_1280.jpg
+
+
+==============- Service Constant Data -==============
+
+const serviceData = [
+        {
+            id: 1,
+            img: "https://cdn.pixabay.com/photo/2013/03/09/04/43/medicine-91754_640.jpg",
+            title: "Preventive Care",
+            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero quod error reprehenderit iste laboriosam vel repudiandae eaque voluptas impedit numquam."
+        },
+        {
+            id: 2,
+            img: "https://cdn.pixabay.com/photo/2024/07/14/11/52/ai-generated-8894225_640.jpg",
+            title: "Diagnostic Testing",
+            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero quod error reprehenderit iste laboriosam vel repudiandae eaque voluptas impedit numquam."
+        },
+        {
+            id: 3,
+            img: "https://cdn.pixabay.com/photo/2015/07/30/14/36/hypertension-867855_640.jpg",
+            title: "Home Treatment",
+            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero quod error reprehenderit iste laboriosam vel repudiandae eaque voluptas impedit numquam."
+        },
+        {
+            id: 4,
+            img: "https://cdn.pixabay.com/photo/2023/10/07/03/38/ai-generated-8299432_640.jpg",
+            title: "Health Checkup",
+            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero quod error reprehenderit iste laboriosam vel repudiandae eaque voluptas impedit numquam."
+        },
+        {
+            id: 5,
+            img: "https://cdn.pixabay.com/photo/2017/11/06/15/49/baby-2923997_640.jpg",
+            title: "Child Care",
+            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero quod error reprehenderit iste laboriosam vel repudiandae eaque voluptas impedit numquam."
+        },
+    ]
+
+
+==============- Specialist Constant Data -==============
+
+const specialistData = [
+        {
+            id: 1,
+            img: DentalCare,
+            title: "Dental Care",
+            totalDoctors: "15+",
+        },
+        {
+            id: 2,
+            img: Cardiology,
+            title: "Cardiology",
+            totalDoctors: "33+",
+        },
+        {
+            id: 3,
+            img: EyeCare,
+            title: "Eye Care",
+            totalDoctors: "18+",
+        },
+        {
+            id: 4,
+            img: Gynecology,
+            title: "Gynecologists",
+            totalDoctors: "25+",
+        },
+        {
+            id: 5,
+            img: Neurology,
+            title: "Neurology Care",
+            totalDoctors: "10+",
+        },
+    ]
+
+==============- Banner desc -==============
+
+Your health is your greatest asset. Don't let delays stand in the way of a vibrant life. <br /> Seek help today and take the first step towards a healthier tomorrow.
+
+
+==============- Doctor Constant Data -==============
+
+    const doctorData = [
+        {
+            id: 1,
+            img: "https://cdn.pixabay.com/photo/2024/02/21/15/01/doctor-8587851_640.png",
+            name: "Dr. John Doe",
+            position: "Cardiologist",
+        },
+        {
+            id: 2,
+            img: "https://cdn.pixabay.com/photo/2024/03/29/03/30/ai-generated-8662131_640.png",
+            name: "Dr. Luna Brawn",
+            position: "Neurologist",
+        },
+        {
+            id: 3,
+            img: "https://cdn.pixabay.com/photo/2024/01/19/18/52/ai-generated-8519596_640.png",
+            name: "Dr. Georgia Thapa",
+            position: "Dentist",
+        },
+        {
+            id: 4,
+            img: "https://cdn.pixabay.com/photo/2024/08/13/11/42/ai-generated-8965801_640.png",
+            name: "Dr. John Doe",
+            position: "Cardiologist",
+        },
+    ]
+
+
+==============- Appointment img -==============
+
+Link:- https://cdn.pixabay.com/photo/2021/11/21/06/16/female-6813278_640.png
+
+<div className="w-full space-y-1.5">
+                                <label className="text-base text-neutral-400 font-normal block">
+                                    Email Address
+                                </label>
+                                <input type="email" placeholder='e.g. info@example.com' className="w-full h-12 border border-neutral-300/80 bg-neutral-200/50 rounded-lg px-4 placeholder:text-neutral-400 focus:border-blue-500 focus:bg-blue-500/5 focus:outline-none text-base text-neutral-600 font-normal" />
+                            </div>
+                            <div className="w-full space-y-1.5">
+                                <label className="text-base text-neutral-400 font-normal block">
+                                    Phone Number
+                                </label>
+                                <input type="text" placeholder='e.g. +977-9800000000' className="w-full h-12 border border-neutral-300/80 bg-neutral-200/50 rounded-lg px-4 placeholder:text-neutral-400 focus:border-blue-500 focus:bg-blue-500/5 focus:outline-none text-base text-neutral-600 font-normal" />
+                            </div>
+                            <div className="w-full space-y-1.5">
+                                <label className="text-base text-neutral-400 font-normal block">
+                                    Choose Subject
+                                </label>
+                                <select name="department" id="" className='w-full h-12 border border-neutral-300/80 bg-neutral-200/50 rounded-lg px-4 placeholder:text-neutral-400 focus:border-blue-500 focus:bg-blue-500/5 focus:outline-none text-base text-neutral-600 font-normal'>
+                                    <option value="consultant">Consultant</option>
+                                    <option value="makeenquery">Make Enquiry</option>
+                                    <option value="healthcheckup">Health Checkup</option>
+                                    <option value="visitdoctor">Visti Doctor</option>
+                                </select>
+                            </div>
+                            <div className="w-full space-y-1.5">
+                                <label className="text-base text-neutral-400 font-normal block">
+                                    Select Data
+                                </label>
+                                <input type="date" className="w-full h-12 border border-neutral-300/80 bg-neutral-200/50 rounded-lg px-4 placeholder:text-neutral-400 focus:border-blue-500 focus:bg-blue-500/5 focus:outline-none text-base text-neutral-600 font-normal" />
+                            </div>
+                            <div className="w-full space-y-1.5">
+                                <label className="text-base text-neutral-400 font-normal block">
+                                    Select Time
+                                </label>
+                                <input type="time" className="w-full h-12 border border-neutral-300/80 bg-neutral-200/50 rounded-lg px-4 placeholder:text-neutral-400 focus:border-blue-500 focus:bg-blue-500/5 focus:outline-none text-base text-neutral-600 font-normal" />
+                            </div>
+
+
+==============- Blog Constant Data -==============
+
+
+const blogData = [
+        {
+            id: 1,
+            img: "https://cdn.pixabay.com/photo/2017/07/23/10/44/dentist-2530990_640.jpg",
+            title: "This is the title of the article",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus id, quos quae voluptatum saepe sequi? Ad officiis ullam totam veniam.",
+        },
+        {
+            id: 2,
+            img: "https://cdn.pixabay.com/photo/2017/10/04/09/56/laboratory-2815641_640.jpg",
+            title: "This is the title of the article",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus id, quos quae voluptatum saepe sequi? Ad officiis ullam totam veniam.",
+        },
+        {
+            id: 3,
+            img: "https://cdn.pixabay.com/photo/2021/11/20/03/35/doctor-6810776_640.png",
+            title: "This is the title of the article",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus id, quos quae voluptatum saepe sequi? Ad officiis ullam totam veniam.",
+        },
+    ]
+
+===- Don't forgot to hit that subscribe button and like, share, comment -===
+
+==============- Thank you for Watching -==============
+
+
+
+
+
